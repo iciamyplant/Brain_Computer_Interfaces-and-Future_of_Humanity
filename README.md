@@ -2,9 +2,10 @@
 ### I - Définition de la technologie
 - **1. Caractéristiques des types de BCI**
 - **2. Vaste et riche Histoire des BCIs bien avant Neuralink**
-### III - Principes techniques
+### II - Principes techniques
 - **1. Cerveau, moelle épinière, nerfs**
 - **2. Fonctionnement global BCIs**
+
 ### IV - Articles les plus intéressants / principales avancées
 - **1. Langage reconstruction**
 - **2. Image reconstruction**
@@ -73,6 +74,61 @@ En 1973,  Jacques Vidal met la lumière sur ce domaine de recherche en publiant 
 
 **2010-2020**
 2012 : braingate, femme controlant un bras robot, serre une bouteille d'eau; et boit dedans. 2019 : Synchron devient la première entreprise à obtenir l'autorisation de la FDA pour tester une ICO invasive sur des humains aux États-Unis. 2023: commencent à créer des trucs comme les interfaces cerveau colonne vertébrale. Y a aussi Neuralink, Synchron, développement de flexible sensors, blackrock neurotech est aussi sur le sujet des flexible sensors, Meta et CTRL-Labs. Word decoding, image reconstruction... Beaucoup d'avancées
+
+# II - Principes techniques
+
+### 1. Cerveau, moelle épinière, nerfs
+
+Pour comprendre comment ça marche on va prendre l’exemple de tout le processus qui se déroule quand une mouche se pose sur mon bras et que je bouge mon bras pour quelle parte. Tout ce qui va être décrit ici est très simplifié dans le but que ce soit compréhensif. Mais avant d'expliquer tout le processus de la mouche, on doit comprendre quelques trucs. Il y a trois éléments importants : le cerveau, la moelle épinière, et les nerfs.
+
+Commençons par le cerveau. On sait tous que dans le cerveau il y a des neurones (ou cellules nerveuses). Une cellule nerveuse ça a un corps cellulaire avec un noyau cellulaire, un axone, et des dendrites (A). Elles sont en très grande quantité, et les corps cellulaires de ces cellules nerveuses se trouvent essentiellement dans la partie grise du cerveau (B). Ca s'appelle le cortex, et c’est là que se passe le langage le mouvement etc (oui oui y a la majeure partie des trucs complexes se passent dans cette petite couche d'environ 3mm d'épaisseur). Les cellules communiquent entre elles grâce eux fibres nerveuses (c'est les axones des neurones) en utilisant des impulsions electriques, fibres qui sont principalement blanches et forment la matière blanche comme on peut l'observer (B). Donc en gros la partie blanche c'est juste les cables quoi. Ensuite, dans la continuité du cerveau : la moelle épinière (C). Concrètement c'est un cordon nerveux situé dans le canal vertébral, protégé par la colonne vertébrale. Elle s'étend du tronc cérébral jusqu'à la deuxième vertèbre lombaire. Sa structure interne comprend elle aussi, une substance grise centrale (idem, les corps cellulaires des neurones) et une substance blanche périphérique (là aussi, les axones cad les fibres nerveuses). Et enfin, dans la continuité de la colonne cérébrale et qui s'étend jusqu'aux muscles : les nerfs. Les nerfs en fait, c'est des axones de neurone. 
+
+Allez c'est parti pour le processus de la mouche. Une mouche se pose sur mon bras.
+- étape 1 : je sens la mouche : 
+À la surface de la peau et dans d'autres tissus, il y a différents types de récepteurs sensitifs, qui détectent des stimulis physiques tels que la pression, la température et la douleur (D). Une fois qu'un récepteur est activé par un stimulus (comme notre mouche qui le touche), il génère un signal électrique. 
+- étape 2 : signal transmis à la moelle épinière
+Ce signal électrique est transmis le long des axones des neurones sensitifs (= le long des fibres nerveuses) jusqu’au corps cellulaire du neurone qui se trouve dans les ganglions situés vers la moelle épinière. Les axones des neurones sensitifs rejoignent la moelle épinière par la racine dorsale (E). À ce niveau, ils établissent des connexions avec d'autres neurones dans la corne dorsale de la moelle épinière, permettant ainsi la transmission rapide de l'information sensorielle vers le cerveau. Beaucoup de termes techniques pour dire en gros l'info va dans la moelle épinière
+- étape 3 : singal traité en partie par la moelle épinière et envoyé au cerveau
+Avant d'atteindre le cerveau, certaines informations sensorielles peuvent être traitées au niveau de la moelle épinière. C'est particulièrement vrai pour les réflexes, où une réponse rapide est nécessaire pour éviter une blessure (par exemple, retirer rapidement une main d'une surface chaude).
+Bref les neurones de la moelle épinière transmettent le signal au cerveau. 
+- étape 4 : traitement par le cortex somatosensoriel (on se rappelle, le cortex = partie grise)
+Une fois arrivés au cerveau, ils atteignent principalement le cortex somatosensoriel (en particulier l'aire S1) qui est responsable du traitement des informations tactiles. C’est donc là que le signal est traité. C’est qu’à ce moment-là que je prends conscience de la présence de la mouche. Comme quand on se cogne parfois y a un temps de latence avant de sentir la douleur. Le cortex somatosensoriel est organisé de manière somatotopique, ce qui signifie que chaque partie du corps est représentée dans une zone spécifique du cortex (F). Ca permet au cerveau de localiser précisément où se trouve la mouche sur mon bras. Il évalue la situation et décide d'agir pour l'enlever.
+- étape 5 : cortex moteur s’active et envoie des signaux au neurones moteurs
+Le cortex moteur, région du cerveau responsable du contrôle des mouvements, s'active pour planifier une réponse motrice appropriée. Le cortex moteur envoie des signaux aux neurones moteurs supérieurs, qui se trouvent dans le cortex et le tronc cérébral (G).
+- étape 6 : transmission des signaux jusqu’aux muscles
+Ces signaux descendent ensuite dans la moelle épinière et activent les neurones moteurs inférieurs, qui transmettent les signaux aux muscles
+- étape 7 : exécution du mouvement
+Les neurones moteurs stimulent les muscles du bras pour provoquer une contraction, permettant ainsi au bras de bouger et d'enlever la mouche.
+En résumé, les neurones moteurs envoient un signal qui active les muscles via un neurotransmetteur, entraînant leur contraction et permettant le mouvement.
+
+==> Donc en gros y a une communication bidirectionnelle entre le cerveau et le reste du corps en passant par la moelle epinière et les nerfs
+
+
+### 2. Fonctionnement global BCIs
+Une BCI ou brain-computer interface est un système qui permet une communication directe entre le cerveau et un appareil externe, comme un ordinateur. Elle peut se composer de divers logiciels et outils différents selon les méthodes employées et le but dans lequel on l'utilise. Mais voilà un schéma global de son fonctionnement en 3 parties : 
+- **La sonde, qui mesure l'activité cérébrale** :
+C’est la partie en contact avec le tissu cérébral. L'activité électrique du cerveau est mesurée.
+On distingue deux types de BCI : les invasives et les non invasives. Et il faut savoir que plus on est éloigné du cerveau, plus le signal est bruyant. On peut parfois obtenir la résolution d'activité d'un seul neurone. Nombreuses techniques pour récupérer le signal : EGoG, EEG (non invasive), MEA (very used), stereo EEG electrode sEEG...
+- **Les électrodes sont reliées à un boîtier d'acquisition** :
+C’est l'électronique qui connecte la sonde au monde extérieur. Ce boîtier convertit les signaux électriques captés par les électrodes en données numériques (en chiffres quoi). Avec ces étapes : 
+d’abord il amplifie les signaux électriques très faibles (de l'ordre du microvolt) captés par les électrodes
+ensuite il convertit ces signaux analogiques amplifiés en données numériques que l'ordinateur peut traiter
+puis il envoie ces données numériques à l'ordinateur ou au dispositif de traitement pour l'analyse ultérieure qui dispose maintenant d’informations exploitables par les algorithmes de traitement et de classification
+- **Le software interprète les données** :
+varie selon les objectifs et les signaux. Mais cette partie peut consister en l’extraction des caractéristiques pertinentes (peuvent inclure la puissance dans différentes bandes de fréquences ou autres paramètres spécifiques). 
+Analyse spectrale : Les séries de Fourier, notamment la transformée de Fourier rapide (FFT), sont utilisées pour décomposer les signaux EEG complexes en leurs composantes fréquentielles. Cela permet d'identifier les différents rythmes cérébraux présents dans le signal. 
+Filtrage : Des techniques basées sur Fourier sont employées pour filtrer les signaux EEG, éliminant le bruit et isolant les bandes de fréquences d'intérêt, comme les ondes alpha ou bêta
+Des algorithmes de classification, tels que les réseaux de neurones, les machines à vecteurs supports ou les analyses linéaires discriminantes, sont utilisés pour identifier l'état mental de l'utilisateur à partir des caractéristiques extraites
+
+
+
+
+
+
+
+
+
+
 
 
 
