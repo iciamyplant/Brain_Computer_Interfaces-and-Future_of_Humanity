@@ -144,39 +144,14 @@ Des algorithmes de classification, tels que les réseaux de neurones, les machin
 Il existe de nombreuses études et articles sur plein d'applications différentes. Mais j'ai décidé de me concentrer sur ce qui concerne la reconstruction du langage et des images + le mouvement. J'ai selectionné ici les études qui m'ont marqué.
 
 ### 1. Langage reconstruction
-
 Dans la reconstruction du langage, deux études publiées en août 2023 montrent la création de BCIs capables de traduire des signaux neuronaux en phrases à une vitesse proche de celle d'une conversation normale (environ 150 mots par minute) :
-- a. [A high-performance neuroprosthesis for speech decoding and avatar control](https://www.nature.com/articles/s41586-023-06443-4)
-- b. [A high-performance speech neuroprosthesis](https://www.nature.com/articles/s41586-023-06377-x)
-
-#### a. A high-performance neuroprosthesis for speech decoding and avatar control, Chang Lab
-La première est une étude du Chang Lab (le laboratoire soutenu par Meta qui essaye de comprendre comment le cerveau traite le langage on en parle en dessous). L’article s’appuie sur leurs travaux précédents, qui ont montré qu’il est possible d'enregistrer l’activité neuronale d’une personne paralysée qui tente de parler et de traduire cette activité en mots et en phrases sous forme de texte sur un écran. Ils ont avec ces études pour projet de développer un appareil capable d’aider les personnes qui ont perdu la capacité de parler à communiquer à nouveau. 
-
-**technologies utilisées** : 
-- réseau d'électrodes d'électrocorticographie ECoG a été utilisé pour collecter des signaux placé sur les zones liées à la parole du cortex sensorimoteur et du gyrus temporal supérieur. 
-- RNN (réseau neuronal récurrent) = associe les caractéristiques de l’ECoG aux mouvements des articulateurs qui font partie du conduit vocal. Puis traduit en phrases avec : 
-- modèle de langage = aider à générer les phrases les plus plausibles
-
-==> neural signal processing, speech detection, word classification, language modeling
-
-**process de l’étude** : Avec un participant souffrant d’une paralysie grave des membres et de la voix, causée par un accident vasculaire cérébral du tronc cérébral. La patiente active la BCI simplement en tentant de parler, elle essaye de dire des phrases. Mais vu qu’elle est paralysée elle le dit pas. Et en gros, leur appareil lit le plan (the blueprint) des instructions que le cerveau utilise pour transmettre aux muscles du conduit vocal. 
-
-**Résultats** : ils ont réussi à traduire les tentatives de discours à un rythme d’environ 78 mots par minute. Un taux d'erreur de 25,5 % pour un vocabulaire de 1 024 mots. L’approche a permis d’obtenir un décodage cerveau-texte avec un taux médian de 78 mots par minute et un taux médian d’erreur de mots de 25 % pour un vocabulaire de 1 024 mots. Sachant que le vocabulaire pratique et quotidien d'un individu peut varier de 300 à 3 000 mots. Pour un adulte moyen, on estime qu'il utilise environ 500 mots différents par jour dans la vie courante.
-
-#### b. A high-performance speech neuroprosthesis, projet collaboratif BrainGate
-C’est un projet de recherche collaboratif Braingate = équipe de recherche, basés dans divers instituts aux États-Unis, ont créé une interface cerveau-ordinateur de conversion de la parole en texte
-
-**technologies utilisées** : 
-- 4 réseaux de microélectrodes intracorticales implantées pour collecter les signaux
-- réseau neuronal récurrent : ils ont entrainé un RNN pour décoder l’activité neuronale en phonème séquences probabilities. 
-- modèle de langage pour les décoder en mots : ces séquences ont ensuite été assemblées into the most likely sequence of words being spoken by an n-gram language model.
-
-**process de l’étude** : Avec un patient atteint de ALS
-
-**Résultats** : 
-- Avec une contrainte de 50 mots de vocabulaire, leur BCI a détecté quasi tous les mots correctement, le premier jour d’utilisation. taux d’erreur de 9,1 % sur un vocabulaire de 50 mots
-- Avec un vocabulaire de 125 000 mots, ce qui est vraiment très volumineux, ils ont décodé des phrases avec un taux d'erreur de moins de 10% le deuxième jour d’utilisation. taux d’erreur de 23,8 %
-- La tentative de parole de notre participant a été décodée à 62 mots par minute
+|Article| [A high-performance neuroprosthesis for speech decoding and avatar control](https://www.nature.com/articles/s41586-023-06443-4) |[A high-performance speech neuroprosthesis](https://www.nature.com/articles/s41586-023-06377-x)|
+|----------|-------|-------|
+|Présentation|étude du Chang Lab (le laboratoire soutenu par Meta qui essaye de comprendre comment le cerveau traite le langage on en parle en dessous) L’article s’appuie sur leurs travaux précédents, qui ont montré qu’il est possible d'enregistrer l’activité neuronale d’une personne paralysée qui tente de parler et de traduire cette activité en mots et en phrases sous forme de texte sur un écran. Ils ont avec ces études pour projet de développer un appareil capable d’aider les personnes qui ont perdu la capacité de parler à communiquer à nouveau.  |C’est un projet de recherche collaboratif Braingate = équipe de recherche, basés dans divers instituts aux États-Unis, ont créé une interface cerveau-ordinateur de conversion de la parole en texte |
+|Technologies utilisées| 1. réseau d'électrodes d'électrocorticographie ECoG a été utilisé pour collecter des signaux placé sur les zones liées à la parole du cortex sensorimoteur et du gyrus temporal supérieur. 2. RNN (réseau neuronal récurrent) = associe les caractéristiques de l’ECoG aux mouvements des articulateurs qui font partie du conduit vocal. Puis traduit en phrases avec : 3. modèle de langage = aider à générer les phrases les plus plausibles ==> neural signal processing, speech detection, word classification, language modeling|1. quatre réseaux de microélectrodes intracorticales implantées pour collecter les signaux 2. réseau neuronal récurrent : ils ont entrainé un RNN pour décoder l’activité neuronale en phonème séquences probabilities. 3. modèle de langage pour les décoder en mots : ces séquences ont ensuite été assemblées into the most likely sequence of words being spoken by an n-gram language model.  |
+|Process de l’étude|Avec un participant souffrant d’une paralysie grave des membres et de la voix, causée par un accident vasculaire cérébral du tronc cérébral. La patiente active la BCI simplement en tentant de parler, elle essaye de dire des phrases. Mais vu qu’elle est paralysée elle le dit pas. Et en gros, leur appareil lit le plan (the blueprint) des instructions que le cerveau utilise pour transmettre aux muscles du conduit vocal.  | Avec un patient atteint de ALS|
+|Résultats| ils ont réussi à traduire les tentatives de discours à un rythme d’environ 78 mots par minute. Un taux d'erreur de 25,5 % pour un vocabulaire de 1 024 mots. L’approche a permis d’obtenir un décodage cerveau-texte avec un taux médian de 78 mots par minute et un taux médian d’erreur de mots de 25 % pour un vocabulaire de 1 024 mots. Sachant que le vocabulaire pratique et quotidien d'un individu peut varier de 300 à 3 000 mots. Pour un adulte moyen, on estime qu'il utilise environ 500 mots différents par jour dans la vie courante. | 1. Avec une contrainte de 50 mots de vocabulaire, leur BCI a détecté quasi tous les mots correctement, le premier jour d’utilisation. taux d’erreur de 9,1 % sur un vocabulaire de 50 mots 2. Avec un vocabulaire de 125 000 mots, ce qui est vraiment très volumineux, ils ont décodé des phrases avec un taux d'erreur de moins de 10% le deuxième jour d’utilisation. taux d’erreur de 23,8 %. 3. La tentative de parole de notre participant a été décodée à 62 mots par minute|
+|Différences|électrodes placées sur la surface du cortex cérébral, souvent sous la dure-mère, et mesurent l'activité électrique à partir de cette position. Elles sont moins invasives que les microélectrodes intracorticales. Différence dans les modèles IA utilisés |microélectrodes intracorticales sont implantées directement dans le tissu cérébral. Elles permettent d'enregistrer l'activité neuronale à un niveau très localisé : l'activité de neurones individuels ou de petits groupes de neurones. + de précision mais + invasif|
 
 ### 2. Image reconstruction
 
