@@ -56,7 +56,6 @@ Quelques éléments de l'histoire des BCI
   <img src="https://github.com/user-attachments/assets/01406959-5740-4c2c-b39f-925c99e31139" alt="midjourneyv2">
   <p>image générée avec Midjourney v6 sur Mammouth.ai</p>
 </div>
-![midjourneyv2](https://github.com/user-attachments/assets/01406959-5740-4c2c-b39f-925c99e31139)
 
 **1791**
 A commencé par des scientifiques qui se demandaient la diférence entre ce qui n'est pas vivant et ce qui est vivant. Ils se sont dit qu'il doit surement y avoir un esprit vital, une force vitale. Notamment un physicien : Luigi Galvani. Un jour Luigi disséquait des grenouilles et il avait genre un petit appareil qui pouvait créer un choc statique. Accidentellement, un petit choc a énervé les cuisses de grenouilles qui ont bougé. Et il s'est dit wow qu'est ce qu'il se passe. Pendant 5 années il a fait des experimentations pour comprendre qu'est ce que c'est. Il a publié un article et a dit Ok j'ai trouvé la force vitale. Ca sappelle ["Animal Electricity"](http://www.ampere.cnrs.fr/histoire/parcours-historique/galvani-volta/galvani/eng).
@@ -156,10 +155,20 @@ Dans la reconstruction du langage, deux études publiées en août 2023 montrent
 ### 2. Image reconstruction
 
 #### a. Mindeye
-On utilise les signaux cérébraux pour reconstruire l'image
-approche novatrice pour reconstruire et récupérer des images à partir de l'activité cérébrale mesurée par IRM fonctionnelle (IRMf).
-développée par StabilityAI
-Le système atteint une grande précision dans la récupération des images originales, avec plus de 90% de précision dans l'identification de l'image originale parmi un pool de candidats.
+
+[Article explicatif](https://stability.ai/research/minds-eye)
+[Github](https://github.com/MedARC-AI/fMRI-reconstruction-NSD)
+MindEye, développé par StabilityAI (qui a créé le modèle IA StableDiffusion, d'ailleurs disponible sur Mammouth.ai), est une approche novatrice qui permet de reconstruire et de récupérer des images à partir de l'activité cérébrale mesurée par IRMf (projet open source). A partir d'un échantillon d'activité IRMf d'un participant visualisant une image, MindEye peut soit identifier quelle image parmi un ensemble d'images candidates possibles était l'image vue d'origine (récupération), soit recréer l'image qui a été vue (reconstruction). 
+
+**Technologies utilisées** : 
+- Utilise l'IRMf pour mesurer l'activité cérébrale
+- approche consistant à utiliser deux sous-modules parallèles spécialisés pour la récupération (en utilisant l'apprentissage contrastif) et la reconstruction (en utilisant une diffusion préalable). 
+**Process de l'étude** : Chaque image unique de l'ensemble de données a été visualisée trois fois, pendant trois secondes à la fois. L'activité IRMf correspondante (motif spatial aplati sur des cubes de tissu cortical de 1,8 mm appelés « voxels ») a été collectée pour chaque présentation d'image. L'activité IRMf sur les trois visualisations de la même image a été moyennée et saisie dans MindEye pour récupérer et reconstruire l'image d'origine. 
+**Résultats** : Peut retrouver l'image exacte correspondante avec une précision de 93,2% parmi un ensemble d'échantillons de test. Bonnes reconstructions aussi.
+
+Resultats reconstruction :
+![mindeye](https://github.com/user-attachments/assets/7f525b7b-63b3-40a1-a3c9-c208d59a0910)
+
 
 #### b. Toward a real-time decoding of images from brain activity, Meta AI FAIR Research
 
@@ -178,7 +187,7 @@ Octobre 2023, recherche d'une équipe de chercheurs du FAIR, but de développer 
 - ont exploité l'architecture récentre formée dans l'étude de août 2022 [Decoding speech perception from non-invasive brain recordings](https://ai.meta.com/blog/ai-speech-brain-activity/)
 - développent un système en trois parties composé d'un encodeur d'image, d'un encodeur cérébral et d'un décodeur d'image. L'encodeur d'image construit un riche ensemble de représentations de l'image indépendamment du cerveau. L'encodeur cérébral apprend ensuite à aligner les signaux MEG sur ces intégrations d'images.Meilleure alignement des signaux cérébraux avec les systèmes de vision par ordinateur modernes comme DINOv2. Enfin, le décodeur d'image génère une image plausible à partir de ces représentations cérébrales.
 
-**Process de l'étude**
+**Process de l'étude** :
 Des gens voyaient des images dans un scanner de neuroimagerie. Et le but est de créer un système IA qui reconstruit ce qu’ils voient seulement a partir de l’activité cérébrale.  Les volontaires ont vu les images 1,5 secondes, et on peut observer les resultats dans le temps (A).
 
 **Résultats** : Bien que les images générées restent imparfaites, les résultats suggèrent que l'image reconstruite préserve un riche ensemble de caractéristiques de haut niveau, telles que les catégories d'objets.
