@@ -186,16 +186,27 @@ approche novatrice pour reconstruire et récupérer des images à partir de l'ac
 développée par StabilityAI
 Le système atteint une grande précision dans la récupération des images originales, avec plus de 90% de précision dans l'identification de l'image originale parmi un pool de candidats.
 
-#### b. Toward a real-time decoding of images from brain activity, Meta AI Research
-octobre 2023
-utilise la MEG (non invasif), pour développer un système IA capable de décoder le déroulement des représentations visuelles dans le cerveau avec une résolution temporelle sans précédent
-ont exploité l'architecture récentre formée dans l'étude de août 2022 au dessus et développent un système en trois parties composé d'un encodeur d'image, d'un encodeur cérébral et d'un décodeur d'image
-Enfin, le décodeur d'image génère une image plausible à partir de ces représentations cérébrales.
-L'encodeur cérébral apprend ensuite à aligner les signaux MEG sur ces intégrations d'images.Meilleure alignement des signaux cérébraux avec les systèmes de vision par ordinateur modernes comme DINOv2
-L'encodeur d'image construit un riche ensemble de représentations de l'image indépendamment du cerveau.
+#### b. Toward a real-time decoding of images from brain activity, Meta AI FAIR Research
 
-Ce système d’IA peut être déployé en temps réel pour reconstituer, à partir de l’activité cérébrale, les images perçues et traitées par le cerveau à chaque instant. Cela ouvre une voie importante pour aider la communauté scientifique à comprendre comment les images sont représentées dans le cerveau, puis utilisées comme fondements de l’intelligence humaine.
-résultats : Bien que les images générées restent imparfaites, les résultats suggèrent que l'image reconstruite préserve un riche ensemble de caractéristiques de haut niveau, telles que les catégories d'objets.
+[Article qui résume](https://ai.meta.com/blog/brain-ai-image-decoding-meg-magnetoencephalography/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=research&utm_content=video)
+[Article de recherche](https://arxiv.org/abs/2310.19812)
+
+Octobre 2023, recherche d'une équipe de chercheurs du FAIR, but de développer un système IA capable de décoder le déroulement des représentations visuelles dans le cerveau. Ce système d’IA peut être déployé en temps réel pour reconstituer, à partir de l’activité cérébrale, les images perçues et traitées par le cerveau à chaque instant. Cela ouvre une voie importante pour aider la communauté scientifique à comprendre comment les images sont représentées dans le cerveau, puis utilisées comme fondements de l’intelligence humaine.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ce35ebc3-62b6-4f56-a407-db31b6734b32" alt="resultsmeta">
+  <p>(A) générations obtenues dans le temps 0 à 1,5s (B) full window generations</p>
+</div>
+
+**Technologies utilisées** : 
+- utilisant la magnétoencéphalographie (MEG), non invasif
+- ont exploité l'architecture récentre formée dans l'étude de août 2022 [Decoding speech perception from non-invasive brain recordings](https://ai.meta.com/blog/ai-speech-brain-activity/)
+- développent un système en trois parties composé d'un encodeur d'image, d'un encodeur cérébral et d'un décodeur d'image. L'encodeur d'image construit un riche ensemble de représentations de l'image indépendamment du cerveau. L'encodeur cérébral apprend ensuite à aligner les signaux MEG sur ces intégrations d'images.Meilleure alignement des signaux cérébraux avec les systèmes de vision par ordinateur modernes comme DINOv2. Enfin, le décodeur d'image génère une image plausible à partir de ces représentations cérébrales.
+
+**Process de l'étude**
+Des gens voyaient des images dans un scanner de neuroimagerie. Et le but est de créer un système IA qui reconstruit ce qu’ils voient seulement a partir de l’activité cérébrale.  Les volontaires ont vu les images 1,5 secondes, et on peut observer les resultats dans le temps (A).
+
+**Résultats** : Bien que les images générées restent imparfaites, les résultats suggèrent que l'image reconstruite préserve un riche ensemble de caractéristiques de haut niveau, telles que les catégories d'objets.
 Cependant, le système d'IA génère souvent des caractéristiques de bas niveau inexactes en plaçant ou en orientant mal certains objets dans les images générées.
 
 ### 3. Mouvement
