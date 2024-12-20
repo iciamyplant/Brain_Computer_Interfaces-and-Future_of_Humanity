@@ -146,35 +146,28 @@ Des algorithmes de classification, tels que les réseaux de neurones, les machin
 
 # IV - Le cerveau, infinie complexité
 
-Le cortex : C’est l'endroit où se déroule la plupart des actions : c'est grâce à lui qu’on peut  penser, bouger, sentir, voir, entendre, se souvenir, parler et comprendre le langage. Mais en réalité, c’est que les 1 à 4 millimètres extérieurs du cerveau, la couche externe quoi. Et la majeure partie de l’espace en dessous, c’est cette substance blanche, en gros… des câbles. 
-Et cette couche, elle s'étend sur environ 2000 centimètres carrés. Comment c’est possible ?  Grâce à tous les replis. Donc si on retire le cortex du cerveau, qu’on l’aplati, on se retrouve avec ça. Une feuille d’environ 3 mm d'épaisseur et une surface de 2 000 à 2 400 cm2 , soit environ la taille d'un carré de 48 cm x 48 cm. Une serviette de table. Et à côté, voilà la vraie taille d’un cerveau.
+Le cortex : C’est l'endroit où se déroule la plupart des actions : c'est grâce à lui qu’on peut  penser, bouger, sentir, voir, entendre, se souvenir, parler et comprendre le langage. Mais en réalité, c’est que les 1 à 4 millimètres extérieurs du cerveau, la couche externe quoi. Et la majeure partie de l’espace en dessous, c’est cette substance blanche, en gros… des câbles. Et cette couche, elle s'étend sur environ 2000 centimètres carrés. Comment c’est possible ?  Grâce à tous les replis. Donc si on retire le cortex du cerveau, qu’on l’aplati, on se retrouve avec ça. Une feuille d’environ 3 mm d'épaisseur et une surface de 2 000 à 2 400 cm2 , soit environ la taille d'un carré de 48 cm x 48 cm. Une serviette de table. Et à côté, voilà la vraie taille d’un cerveau.
 
 Mise à l’échelle : Maintenant pour se rendre compte de ce qu’il se passe à l’intérieur multiplions le cerveau par 1 000.
 * 1000 ça veut dire que 1mm = 1m. Donc chaque millimètre du cerveau fait désormais un mètre.
-48cm = 480m : la serviette en cortex, qui mesurait environ 48 cm de chaque côté, a maintenant un côté de 480m. L’équivalent de notre dame à là. Il faudrait environ 24 minutes là pour faire le tour du tracé à 5 km/h.(480*4 = 1920m)
-16cm = 160m : et le cerveau dans son ensemble s’intégrerait désormais parfaitement dans un carré de la longueur de côté de Notre Dame. 
-son épaisseur de 3 mm correspond désormais à 3 mètres
+- 48cm = 480m : la serviette en cortex, qui mesurait environ 48 cm de chaque côté, a maintenant un côté de 480m. L’équivalent de notre dame à là. Il faudrait environ 24 minutes là pour faire le tour du tracé à 5 km/h.(480*4 = 1920m)
+- 16cm = 160m : et le cerveau dans son ensemble s’intégrerait désormais parfaitement dans un carré de la longueur de côté de Notre Dame. 
+- son épaisseur de 3 mm correspond désormais à 3 mètres
 
 Observons ce qu’il y a dans un cube : Maintenant que le cerveau à une échelle représentative, on peut maintenant aller dans la rue, et observer facilement ce qui se passe à l’intérieur de ces deux mètres d’épaisseur. Sortons un cube d’1m sur 1m et examinons le.
 
-Les somas : c’est ça, la partie la plus volumineuse du neurone. Quelle taille ça fait ?
+- Les somas : c’est ça, la partie la plus volumineuse du neurone. Quelle taille ça fait ?
 En gros ça varie en taille, mais apparemment les somas des neurones du cortex ont souvent un diamètre d’environ 10 ou 15 micromètre. On va prendre 10, donc 10 micromètres × 1000 = 10 000 micromètres, soit 1 cm. Donc les somas ils font entre 1 et 1,5cm. La taille d’une pièce bille.
 Et combien y a t il de somas dans 1 mm cube de cortex ?
 Il y en a environ 20 milliards dans le cortex entier, qui fait 500 000 millimètres cubes. Donc 20 milliards divisé par 500k = 40 000 somas pour 1mm cube. Donc dans notre cube qui représente 1mm cube, on en a 40 000. Ca fait une bille tous les carrés de 3cm*3cm
 
-Voici une image microscopique des somas dans un cortex réel, utilisant des techniques qui bloquent les autres éléments qui les entourent. ⇒ trouver
+Mais le soma c’est qu’une petite partie du neurone. 
+- A chaque soma y a des dendrites qui partent (jusqu'à des centaines de dendrite par neurone). Qui peuvent s’étirer sur plusieurs centaines de micro-mètres, jusqu’à 1mm. Soit jusqu'à 1 m, dans de nombreuses directions différentes.
+- A l’autre extrémité, il y a un axone qui peut mesurer jusqu’à 1m de long. Et chacun de ces axones est d’une épaisseur d’environ un millimètre seulement, ce qui donne un enchevêtrement de spaghettis électriques. Chaque neurone a des connexions synaptiques avec pas moins de 1 000, parfois même 10 000 autres neurones. Et il y a 20 milliards de neurones au total dans le cortex * 1000 connexions = il y a plus de 20 000 milliards de connexions neuronales individuelles dans le cortex. Dans notre seul mètre cube, il y a plus de 20 millions de synapses.
 
-Dendrites, axone, et connexions synaptiques : Mais le soma c’est qu’une petite partie du neurone. A chaque soma y a des dendrites qui partent (jusqu'à des centaines de dendrite par neurone). Qui peuvent s’étirer sur plusieurs centaines de micro-mètres, jusqu’à 1mm. Soit jusqu'à 1 m, dans de nombreuses directions différentes.
-
-A l’autre extrémité, il y a un axone qui peut mesurer jusqu’à 1m de long. Et chacun de ces axones est d’une épaisseur d’environ un millimètre seulement, ce qui donne un enchevêtrement de spaghettis électriques.
-Chaque neurone a des connexions synaptiques avec pas moins de 1 000, parfois même 10 000 autres neurones. Et il y a 20 milliards de neurones au total dans le cortex * 1000 connexions = il y a plus de 20 000 milliards de connexions neuronales individuelles dans le cortex. Dans notre seul mètre cube, il y a plus de 20 millions de synapses.
-
-les câbles qui passent par le cube : Mais c’est pas tout, parce que non seulement il y a des spaghettis qui sortent de chacune des 40 000 billes de notre cube, mais des milliers d'autres spaghettis traversent notre cube en provenance d'autres parties du cortex.
-
-cellules gliales : Il s'avère qu'il existe d'autres cellules dans le cerveau appelées cellules gliales, qui nourrissent, protègent les neurones, éliminent les déchets, etc. Et il y en a à peu près le même nombre qu'il y a de neurones. Soit environ 40 000 dans notre cube.
-
-vaisseaux sanguins : Enfin, les vaisseaux sanguins. Dans chaque millimètre cube du cortex, il y a 230 millimètres de vaisseaux sanguins.*1000 =  230 mètres dans notre cube.
-prendre des images ici sur la fin de la vidéo :https://www.youtube.com/watch?v=9hVHmgBOZuI&t=4s
+- les câbles qui passent par le cube : Mais c’est pas tout, parce que non seulement il y a des spaghettis qui sortent de chacune des 40 000 billes de notre cube, mais des milliers d'autres spaghettis traversent notre cube en provenance d'autres parties du cortex.
+- cellules gliales : Il s'avère qu'il existe d'autres cellules dans le cerveau appelées cellules gliales, qui nourrissent, protègent les neurones, éliminent les déchets, etc. Et il y en a à peu près le même nombre qu'il y a de neurones. Soit environ 40 000 dans notre cube.
+- vaisseaux sanguins : Enfin, les vaisseaux sanguins. Dans chaque millimètre cube du cortex, il y a 230 millimètres de vaisseaux sanguins.*1000 =  230 mètres dans notre cube.
 
 Conclusion : Rappelons maintenant qu'en réalité, tout ce qui se trouve dans notre boîte tient dans un millimètre cube. Et ce mm cube, avec tout ce qui se passe à l’intérieur, ça représente qu'un 500 000e du cortex. Si on décomposait tout le cortex géant en cubes d'un mètre de côté et qu’on les alignait, ils s'étendraient sur 500 km. Paris-Bordeaux. Et à tout moment où on s’arrêterait sur la route… on pourrait regarder le cube devant lequel on est et il contiendrait toute cette complexité à l'intérieur. Et tout ça, c’est en ce moment dans notre cerveau.
 
