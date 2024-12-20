@@ -78,32 +78,49 @@ En 1973,  Jacques Vidal met la lumière sur ce domaine de recherche en publiant 
 
 ### 1. Cerveau, moelle épinière, nerfs
 
-Pour comprendre comment ça marche on va prendre l’exemple de tout le processus qui se déroule quand une mouche se pose sur mon bras et que je bouge mon bras pour quelle parte. Tout ce qui va être décrit ici est très simplifié dans le but que ce soit compréhensif. Mais avant d'expliquer tout le processus de la mouche, on doit comprendre quelques trucs. Il y a trois éléments importants : le cerveau, la moelle épinière, et les nerfs.
+#### a. connaissances de base
+Pour comprendre comment ça marche on va prendre l’exemple de tout le processus qui se déroule *quand une mouche se pose sur mon bras et que je bouge mon bras pour quelle parte*. Tout ce qui va être décrit ici est très simplifié dans le but que ce soit compréhensif. Mais avant d'expliquer tout le processus de la mouche, il y a trois éléments importants : le cerveau, la moelle épinière, et les nerfs.
 
-Commençons par le cerveau. On sait tous que dans le cerveau il y a des neurones (ou cellules nerveuses). Une cellule nerveuse ça a un corps cellulaire avec un noyau cellulaire, un axone, et des dendrites (A). Elles sont en très grande quantité, et les corps cellulaires de ces cellules nerveuses se trouvent essentiellement dans la partie grise du cerveau (B). Ca s'appelle le cortex, et c’est là que se passe le langage le mouvement etc (oui oui y a la majeure partie des trucs complexes se passent dans cette petite couche d'environ 3mm d'épaisseur). Les cellules communiquent entre elles grâce eux fibres nerveuses (c'est les axones des neurones) en utilisant des impulsions electriques, fibres qui sont principalement blanches et forment la matière blanche comme on peut l'observer (B). Donc en gros la partie blanche c'est juste les cables quoi. Ensuite, dans la continuité du cerveau : la moelle épinière (C). Concrètement c'est un cordon nerveux situé dans le canal vertébral, protégé par la colonne vertébrale. Elle s'étend du tronc cérébral jusqu'à la deuxième vertèbre lombaire. Sa structure interne comprend elle aussi, une substance grise centrale (idem, les corps cellulaires des neurones) et une substance blanche périphérique (là aussi, les axones cad les fibres nerveuses). Et enfin, dans la continuité de la colonne cérébrale et qui s'étend jusqu'aux muscles : les nerfs. Les nerfs en fait, c'est des axones de neurone. 
+![explicationsimage](https://github.com/user-attachments/assets/43e2d37d-d092-409c-877a-b7ee27b8efdf)
 
-Allez c'est parti pour le processus de la mouche. Une mouche se pose sur mon bras.
-- étape 1 : je sens la mouche : 
-À la surface de la peau et dans d'autres tissus, il y a différents types de récepteurs sensitifs, qui détectent des stimulis physiques tels que la pression, la température et la douleur (D). Une fois qu'un récepteur est activé par un stimulus (comme notre mouche qui le touche), il génère un signal électrique. 
-- étape 2 : signal transmis à la moelle épinière
-Ce signal électrique est transmis le long des axones des neurones sensitifs (= le long des fibres nerveuses) jusqu’au corps cellulaire du neurone qui se trouve dans les ganglions situés vers la moelle épinière. Les axones des neurones sensitifs rejoignent la moelle épinière par la racine dorsale (E). À ce niveau, ils établissent des connexions avec d'autres neurones dans la corne dorsale de la moelle épinière, permettant ainsi la transmission rapide de l'information sensorielle vers le cerveau. Beaucoup de termes techniques pour dire en gros l'info va dans la moelle épinière
-- étape 3 : signal traité en partie par la moelle épinière et envoyé au cerveau
-Avant d'atteindre le cerveau, certaines informations sensorielles peuvent être traitées au niveau de la moelle épinière. C'est particulièrement vrai pour les réflexes, où une réponse rapide est nécessaire pour éviter une blessure (par exemple, retirer rapidement une main d'une surface chaude).
+**Le cerveau** : on sait tous que dans le cerveau il y a des neurones (ou cellules nerveuses). Une cellule nerveuse ça a un corps cellulaire avec un noyau cellulaire, un axone, et des dendrites (A). Elles sont en très grande quantité, et les corps cellulaires de ces cellules nerveuses se trouvent essentiellement dans la partie grise du cerveau (B). Ca s'appelle le cortex, et c’est là que se passe le langage le mouvement etc (oui oui y a la majeure partie des trucs complexes se passent dans cette petite couche d'environ 3mm d'épaisseur). Les cellules communiquent entre elles grâce eux fibres nerveuses (c'est les axones des neurones) en utilisant des impulsions electriques, fibres qui sont principalement blanches et forment la matière blanche comme on peut l'observer (B). Donc en gros la partie blanche c'est surtout les cables quoi.
+
+Ensuite, dans la continuité du cerveau : **la moelle épinière** (C). Concrètement c'est un cordon nerveux situé dans le canal vertébral, protégé par la colonne vertébrale. Elle s'étend du tronc cérébral jusqu'à la deuxième vertèbre lombaire. Sa structure interne comprend elle aussi, une substance grise centrale (idem, les corps cellulaires des neurones) et une substance blanche périphérique (là aussi, les axones cad les fibres nerveuses). 
+
+Et enfin, dans la continuité de la colonne cérébrale et qui s'étend de partout jusqu'aux muscles : **les nerfs**. Les nerfs en fait, c'est des axones de neurones (D). Et tous ces nerfs qui partent de la colonne vertebralle c'est le système nerveux périphérique (contrairement au central qui est composé du cerveau + moelle épinière)
+
+#### b. une mouche se pose sur mon bras
+Allez c'est parti pour le processus de la mouche. *Une mouche se pose sur mon bras*.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b5249036-757c-42f2-9f02-8c1d2d8d25df" alt="moucheai2">
+  <p>image générée avec Flux 1.1 sur Mammouth.ai</p>
+</div>
+
+- **ETAPE 1 : je sens la mouche** : 
+À la surface de la peau et dans d'autres tissus, il y a différents types de récepteurs sensitifs, qui détectent des stimulis physiques tels que la pression, la température et la douleur (E). Une fois qu'un récepteur est activé par un stimulus (comme notre mouche qui le touche), il génère un signal électrique. 
+- **ETAPE 2 : signal transmis à la moelle épinière**
+Ce signal électrique est transmis le long des axones des neurones sensitifs (= le long des fibres nerveuses) jusqu’au corps cellulaire du neurone qui se trouve dans les ganglions situés vers la moelle épinière (F). Les axones des neurones sensitifs rejoignent la moelle épinière par la racine dorsale (F). À ce niveau, ils établissent des connexions avec d'autres neurones dans la corne dorsale de la moelle épinière, permettant ainsi la transmission rapide de l'information sensorielle vers le cerveau. Beaucoup de termes techniques pour dire en gros l'info va dans la moelle épinière
+- **ETAPE 3 : signal traité en partie par la moelle épinière et envoyé au cerveau**
+Avant d'atteindre le cerveau, certaines informations sensorielles peuvent être traitées au niveau de la moelle épinière. C'est particulièrement vrai pour les réflexes, où une réponse rapide est nécessaire pour éviter une blessure (par exemple, retirer rapidement une main d'une surface chaude) (G).
 Bref les neurones de la moelle épinière transmettent le signal au cerveau. 
-- étape 4 : traitement par le cortex somatosensoriel (on se rappelle, le cortex = partie grise)
-Une fois arrivés au cerveau, ils atteignent principalement le cortex somatosensoriel (en particulier l'aire S1) qui est responsable du traitement des informations tactiles. C’est donc là que le signal est traité. C’est qu’à ce moment-là que je prends conscience de la présence de la mouche. Comme quand on se cogne parfois y a un temps de latence avant de sentir la douleur. Le cortex somatosensoriel est organisé de manière somatotopique, ce qui signifie que chaque partie du corps est représentée dans une zone spécifique du cortex (F). Ca permet au cerveau de localiser précisément où se trouve la mouche sur mon bras. Il évalue la situation et décide d'agir pour l'enlever.
-- étape 5 : cortex moteur s’active et envoie des signaux au neurones moteurs
-Le cortex moteur, région du cerveau responsable du contrôle des mouvements, s'active pour planifier une réponse motrice appropriée. Le cortex moteur envoie des signaux aux neurones moteurs supérieurs, qui se trouvent dans le cortex et le tronc cérébral (G).
-- étape 6 : transmission des signaux jusqu’aux muscles
+- **ETAPE 4 : traitement par le cortex somatosensoriel (on se rappelle, le cortex = partie grise)**
+Une fois arrivés au cerveau, ils atteignent principalement le cortex somatosensoriel (en particulier l'aire S1) qui est responsable du traitement des informations tactiles. C’est donc là que le signal est traité. C’est qu’à ce moment-là que je prends conscience de la présence de la mouche. Comme quand on se cogne parfois y a un temps de latence avant de sentir la douleur. Le cortex somatosensoriel est organisé de manière somatotopique, ce qui signifie que chaque partie du corps est représentée dans une zone spécifique du cortex (H). Ca permet au cerveau de localiser précisément où se trouve la mouche sur mon bras. Il évalue la situation et décide d'agir pour l'enlever.
+- **ETAPE 5 : cortex moteur s’active et envoie des signaux au neurones moteurs**
+Le cortex moteur, région du cerveau responsable du contrôle des mouvements, s'active pour planifier une réponse motrice appropriée. Le cortex moteur envoie des signaux aux neurones moteurs supérieurs, qui se trouvent dans le cortex et le tronc cérébral.
+- **ETAPE 6 : transmission des signaux jusqu’aux muscles**
 Ces signaux descendent ensuite dans la moelle épinière et activent les neurones moteurs inférieurs, qui transmettent les signaux aux muscles
-- étape 7 : exécution du mouvement
+- **ETAPE 7 : exécution du mouvement**
 Les neurones moteurs stimulent les muscles du bras pour provoquer une contraction, permettant ainsi au bras de bouger et d'enlever la mouche.
 En résumé, les neurones moteurs envoient un signal qui active les muscles via un neurotransmetteur, entraînant leur contraction et permettant le mouvement.
 
-==> Donc en gros y a une communication bidirectionnelle entre le cerveau et le reste du corps en passant par la moelle epinière et les nerfs
+![explicationspart2](https://github.com/user-attachments/assets/546f2014-de09-4dfc-90bc-dd6899d54038)
+
+Donc en gros y a une communication bidirectionnelle entre le cerveau et le reste du corps en passant par la moelle epinière et les nerfs
 
 
 ### 2. Fonctionnement global BCIs
+
 Une BCI ou brain-computer interface est un système qui permet une communication directe entre le cerveau et un appareil externe, comme un ordinateur. Elle peut se composer de divers logiciels et outils différents selon les méthodes employées et le but dans lequel on l'utilise. Mais voilà un schéma global de son fonctionnement en 3 parties : 
 - **La sonde, qui mesure l'activité cérébrale** :
 C’est la partie en contact avec le tissu cérébral. L'activité électrique du cerveau est mesurée.
@@ -118,7 +135,6 @@ varie selon les objectifs et les signaux. Mais cette partie peut consister en l�
 Analyse spectrale : Les séries de Fourier, notamment la transformée de Fourier rapide (FFT), sont utilisées pour décomposer les signaux EEG complexes en leurs composantes fréquentielles. Cela permet d'identifier les différents rythmes cérébraux présents dans le signal. 
 Filtrage : Des techniques basées sur Fourier sont employées pour filtrer les signaux EEG, éliminant le bruit et isolant les bandes de fréquences d'intérêt, comme les ondes alpha ou bêta
 Des algorithmes de classification, tels que les réseaux de neurones, les machines à vecteurs supports ou les analyses linéaires discriminantes, sont utilisés pour identifier l'état mental de l'utilisateur à partir des caractéristiques extraites
-
 
 
 # III - Articles les plus intéressants / principales avancées
