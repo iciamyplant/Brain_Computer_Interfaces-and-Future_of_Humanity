@@ -5,23 +5,22 @@
 ### II - Principes techniques
 - **1. Cerveau, moelle épinière, nerfs**
 - **2. Fonctionnement global BCIs**
-
-### IV - Articles les plus intéressants / principales avancées
+### III - Articles les plus intéressants / principales avancées
 - **1. Langage reconstruction**
 - **2. Image reconstruction**
 - **3. Mouvement**
-### V - Le cerveau, infinie complexité
-### VI - Enjeux Business & geo-politiques
+### IV - Le cerveau, infinie complexité
+### V - Enjeux Business & geo-politiques
 - **1. Médical**
 - **2. Investissements Big Tech**
 - **3. Géo-politique**
-### VII - La course à l'alumette
+### VI - La course à l'alumette
 - **1. Meta & BCIs**
 - **2. Apple & BCIs**
 - **3. Google & BCIs**
 - **4. Bill Gates, Jeff Bezos & Synchron**
 - **5. Neuralink**
-### VIII - Futur de l'Humanité
+### VII - Futur de l'Humanité
 - **1. Défis**
 - **2. Enjeux éthiques et accélerationisme**
 - **3. BCIs comme solution aux AGI**
@@ -45,7 +44,7 @@ Plus ou moins invasives
 Différentes applications
 | Médical | Divertissement | Recherche|
 |----------|-------|-------|
-|Communication des patients paralysés, Contrôle de prothèses motorisées par exemple pour les patients amputés par la pensée : ICM utilisées avec les prothèses permettent un contrôle neuronal direct pour des mouvements plus fluides et naturels, restaurer des fonctions motrices et cognitives après une lésion cérébrale. exemple : Implants cochléaires ou rétiniens pour restaurer l'audition ou la vision, patients atteins de paralysie ou handicaps moteurs pour pouvoir interagie avec des ordis par la pensée, stimulation cérébrale profonde (DBS) pour traiter des maladies comme Parkinson ou des troubles psychiatriques  |jeux vidéos contrôlés par la pensée, applications de réalité virtuelle|Etude du fonctionnement cérébral, Modélisation réfléxion humainedes processus de réfléxion humaine|
+|communication des patients paralysés ; contrôle de prothèses motorisées par la pensée des ICM utilisées avec les prothèses permettent un contrôle neuronal direct pour des mouvements plus fluides et naturels ; restaurer des fonctions motrices et cognitives après une lésion cérébrale comme des implants cochléaires ou rétiniens pour restaurer l'audition ou la vision ; patients atteins de paralysie ou handicaps moteurs pour pouvoir interagie avec des ordis par la pensée, déplacer le curseur de la souris etc ; stimulation cérébrale profonde (DBS) pour traiter des maladies comme Parkinson ou des troubles psychiatriques; ...  |jeux vidéos contrôlés par la pensée, applications de réalité virtuelle|Etude du fonctionnement cérébral, Modélisation des processus de réfléxion humaine|
 
 Deux directions de communication
 | BCI unidirectionnelle |BCI bidirectionnelle|
@@ -64,16 +63,16 @@ Un de ses potes était Axander Volta (on le connait des voltes), et il était su
 Vers le début des années 1900, l'EEG a commencé à être utilisé sur les animaux. En 1924 un homme du nom de Hans Berger a commencé à se demander si y avait pas un truc spécial avec l'univers, une manière de communiquer à travers l'espace et le temps. Et il a commencé à être obssédé par la telepathie, et à scanner le cerveau des gens. Il a réussi à record les premières ondes alphas. Premier Human EEG. En 1963, Denise Albe-Fessard pionnière d'une grande partie du travail sur les micro-électrodes qu'on utilise aujourd'hui. Elle a aussi réussi à identifier les régions du cerveau associées à des maladies de trouble du mouvement comme Parkinson. En 1963, Natalia Bekthereva surement la première à appliquer des méthodes de deep brain stimulation pour soigner les troubles du mouvement comme Parkinson. Toujours en 1963, José Delgado a créé un recepteur émetteur radio, a pratiqué une intervention chirurgicale sur un taurreau et a réussi à stimuler en sans fil le thalamus et autres parties du cerveau du taurreau pour l'arrêter en pleine attaque pour les corridas : [la vidéo](https://www.youtube.com/watch?v=WMySKxkwQqk&rco=1).
 
 **1970-1990**
-En 1973,  Jacques Vidal met la lumière sur ce domaine de recherche en publiant un article intitulé « Vers des communications cerveau-ordinateur directes » = "toward direct brain-computer communication", et invente pour la première fois le terme “Brain Computer Interface”. Ces travaux pionniers démontrent que les signaux cérébraux mesurés par EEG peuvent être utilisés pour contrôler un curseur sur un écran. Années 1970 : Premières expériences sur des animaux, notamment des singes, pour démontrer la possibilité de contrôler des neurones via des récompenses et punitions.
+En 1973,  Jacques Vidal met la lumière sur ce domaine de recherche en publiant un article intitulé « Vers des communications cerveau-ordinateur directes » = [toward direct brain-computer communication](https://www.annualreviews.org/docserver/fulltext/biophys/2/1/annurev.bb.02.060173.001105.pdf?expires=1734631204&id=id&accname=guest&checksum=E59F1F2C70924CA6A83DCA4E804F0586), et invente pour la première fois le terme “Brain Computer Interface”. Ces travaux pionniers démontrent que les signaux cérébraux mesurés par EEG peuvent être utilisés pour contrôler un curseur sur un écran. Années 1970 : Premières expériences sur des animaux, notamment des singes, pour démontrer la possibilité de contrôler des neurones via des récompenses et punitions.
 
 **1990-2000**
-1998 : Philip Kennedy (neurologiste) a fait un travail important dans les BCI. Il réalise la première implantation invasive d'une ICO sur un patient humain paralysé. C'était un des premiers à faire une BCI invasive sur un humain. Le premier patient considéré comme le tout premier a avoir une BCI, Johnny Ray, était capable de contrôler un curseur. Ce patient, surnommé "le premier cyborg", parvient à contrôler un curseur d'ordinateur par la pensée après plusieurs mois d'entraînement. Kennedy manque de financements ensuite pour ses recherches. Alors il a subi une intervention chirurgicale lui-même pour se faire impleter lui même en 2014. Il s'est enregistré pendant 80 jours avant d'enlever l'implant. The father of cyborgs (2021), documentaire sur lui The father of cyborgs (2021) (si tu veux le voir mets ton VPN aux USA et vas sur tubi), "my short-term goal is to help people who are locked in to communicate", "i think it's part of the evolution of the human race". Il dit aussi dans une interview "je posais les bases pour la prochaine génération. Pour réellement améliorer les humains normaux. Et la raison pour laquelle je pense ca, est que, vous savez, si vous connaissez Ray Kurzweil qui a prédit que l'IA serait au moins égale et surpasse problablement l'intelligence humaine en 2045, soit dans une génération".
+1998 : Philip Kennedy (neurologiste) a fait un travail important dans les BCI. Il réalise la première implantation invasive d'une ICO sur un patient humain paralysé. C'était un des premiers à faire une BCI invasive sur un humain. Le premier patient considéré comme le tout premier a avoir une BCI, Johnny Ray, était capable de contrôler un curseur. Ce patient, surnommé "le premier cyborg", y parvient après plusieurs mois d'entraînement. Implentera d'autres patients ensuite. Mais Kennedy manque de financements par la suite pour ses recherches. Alors il a subi une intervention chirurgicale pour se faire impleter lui-même en 2014. Il s'est enregistré pendant 80 jours avant d'enlever l'implant. [The father of cyborgs] (https://www.youtube.com/watch?v=_tm5ZaRCORg) (2021), documentaire sur lui (si tu veux le voir mets ton VPN aux USA et vas sur tubi), "my short-term goal is to help people who are locked in to communicate", "i think it's part of the evolution of the human race". "je posais les bases pour la prochaine génération. Pour réellement améliorer les humains normaux. Et la raison pour laquelle je pense ca, est que, vous savez, si vous connaissez Ray Kurzweil qui a prédit que l'IA serait au moins égale et surpasse problablement l'intelligence humaine en 2045, soit dans une génération". Rappelle la vision de Musk, on en parlera plus bas.
 
 **2000-2010**
-2003 : Miguel Nicolelis a fait un travail vraiment fascinant avec les BCI. Monkey controls robot arm. 2004 : L'entreprise Cyberkinetics développe le système BrainGate, permettant à des patients paralysés de contrôler des dispositifs externes comme des bras robotisés. 2006 : Des chercheurs réussissent à connecter une ICO à un bras robotique, permettant à un patient de saisir des objets par la pensée.
+2003 : Miguel Nicolelis a fait un travail vraiment fascinant avec les BCI. [Monkey controls robot arm](https://www.youtube.com/watch?v=wxIgdOlT2cY). 2004 : L'entreprise Cyberkinetics développe le système BrainGate, permettant à des patients paralysés de contrôler des dispositifs externes comme des bras robotisés. 2006 : Des chercheurs réussissent à connecter une ICO à un bras robotique, permettant à un patient de saisir des objets par la pensée.
 
 **2010-2020**
-2012 : braingate, femme controlant un bras robot, serre une bouteille d'eau; et boit dedans. 2019 : Synchron devient la première entreprise à obtenir l'autorisation de la FDA pour tester une ICO invasive sur des humains aux États-Unis. 2023: commencent à créer des trucs comme les interfaces cerveau colonne vertébrale. Y a aussi Neuralink, Synchron, développement de flexible sensors, blackrock neurotech est aussi sur le sujet des flexible sensors, Meta et CTRL-Labs. Word decoding, image reconstruction... Beaucoup d'avancées
+2012 : braingate, [femme controlant un bras robot](https://www.youtube.com/watch?v=QRt8QCx3BCo), serre une bouteille d'eau; et boit dedans. 2019 : Synchron devient la première entreprise à obtenir l'autorisation de la FDA pour tester une ICO invasive sur des humains aux États-Unis. 2023: commencent à créer des trucs comme les interfaces cerveau colonne vertébrale. Y a aussi Neuralink, Synchron, développement de flexible sensors, blackrock neurotech est aussi sur le sujet des flexible sensors, Meta et CTRL-Labs. Word decoding, image reconstruction... Beaucoup d'avancées
 
 # II - Principes techniques
 
@@ -88,7 +87,7 @@ Allez c'est parti pour le processus de la mouche. Une mouche se pose sur mon bra
 À la surface de la peau et dans d'autres tissus, il y a différents types de récepteurs sensitifs, qui détectent des stimulis physiques tels que la pression, la température et la douleur (D). Une fois qu'un récepteur est activé par un stimulus (comme notre mouche qui le touche), il génère un signal électrique. 
 - étape 2 : signal transmis à la moelle épinière
 Ce signal électrique est transmis le long des axones des neurones sensitifs (= le long des fibres nerveuses) jusqu’au corps cellulaire du neurone qui se trouve dans les ganglions situés vers la moelle épinière. Les axones des neurones sensitifs rejoignent la moelle épinière par la racine dorsale (E). À ce niveau, ils établissent des connexions avec d'autres neurones dans la corne dorsale de la moelle épinière, permettant ainsi la transmission rapide de l'information sensorielle vers le cerveau. Beaucoup de termes techniques pour dire en gros l'info va dans la moelle épinière
-- étape 3 : singal traité en partie par la moelle épinière et envoyé au cerveau
+- étape 3 : signal traité en partie par la moelle épinière et envoyé au cerveau
 Avant d'atteindre le cerveau, certaines informations sensorielles peuvent être traitées au niveau de la moelle épinière. C'est particulièrement vrai pour les réflexes, où une réponse rapide est nécessaire pour éviter une blessure (par exemple, retirer rapidement une main d'une surface chaude).
 Bref les neurones de la moelle épinière transmettent le signal au cerveau. 
 - étape 4 : traitement par le cortex somatosensoriel (on se rappelle, le cortex = partie grise)
@@ -122,11 +121,46 @@ Des algorithmes de classification, tels que les réseaux de neurones, les machin
 
 
 
+# III - Articles les plus intéressants / principales avancées
+
+### 1. Langage reconstruction
+### 2. Image reconstruction
+### 3. Mouvement
 
 
+# IV - Le cerveau, infinie complexité
 
+Le cortex : C’est l'endroit où se déroule la plupart des actions : c'est grâce à lui qu’on peut  penser, bouger, sentir, voir, entendre, se souvenir, parler et comprendre le langage. Mais en réalité, c’est que les 1 à 4 millimètres extérieurs du cerveau, la couche externe quoi. Et la majeure partie de l’espace en dessous, c’est cette substance blanche, en gros… des câbles. 
+Et cette couche, elle s'étend sur environ 2000 centimètres carrés. Comment c’est possible ?  Grâce à tous les replis. Donc si on retire le cortex du cerveau, qu’on l’aplati, on se retrouve avec ça. Une feuille d’environ 3 mm d'épaisseur et une surface de 2 000 à 2 400 cm2 , soit environ la taille d'un carré de 48 cm x 48 cm. Une serviette de table. Et à côté, voilà la vraie taille d’un cerveau.
 
+Mise à l’échelle : Maintenant pour se rendre compte de ce qu’il se passe à l’intérieur multiplions le cerveau par 1 000.
+* 1000 ça veut dire que 1mm = 1m. Donc chaque millimètre du cerveau fait désormais un mètre.
+48cm = 480m : la serviette en cortex, qui mesurait environ 48 cm de chaque côté, a maintenant un côté de 480m. L’équivalent de notre dame à là. Il faudrait environ 24 minutes là pour faire le tour du tracé à 5 km/h.(480*4 = 1920m)
+16cm = 160m : et le cerveau dans son ensemble s’intégrerait désormais parfaitement dans un carré de la longueur de côté de Notre Dame. 
+son épaisseur de 3 mm correspond désormais à 3 mètres
 
+Observons ce qu’il y a dans un cube : Maintenant que le cerveau à une échelle représentative, on peut maintenant aller dans la rue, et observer facilement ce qui se passe à l’intérieur de ces deux mètres d’épaisseur. Sortons un cube d’1m sur 1m et examinons le.
+
+Les somas : c’est ça, la partie la plus volumineuse du neurone. Quelle taille ça fait ?
+En gros ça varie en taille, mais apparemment les somas des neurones du cortex ont souvent un diamètre d’environ 10 ou 15 micromètre. On va prendre 10, donc 10 micromètres × 1000 = 10 000 micromètres, soit 1 cm. Donc les somas ils font entre 1 et 1,5cm. La taille d’une pièce bille.
+Et combien y a t il de somas dans 1 mm cube de cortex ?
+Il y en a environ 20 milliards dans le cortex entier, qui fait 500 000 millimètres cubes. Donc 20 milliards divisé par 500k = 40 000 somas pour 1mm cube. Donc dans notre cube qui représente 1mm cube, on en a 40 000. Ca fait une bille tous les carrés de 3cm*3cm
+
+Voici une image microscopique des somas dans un cortex réel, utilisant des techniques qui bloquent les autres éléments qui les entourent. ⇒ trouver
+
+Dendrites, axone, et connexions synaptiques : Mais le soma c’est qu’une petite partie du neurone. A chaque soma y a des dendrites qui partent (jusqu'à des centaines de dendrite par neurone). Qui peuvent s’étirer sur plusieurs centaines de micro-mètres, jusqu’à 1mm. Soit jusqu'à 1 m, dans de nombreuses directions différentes.
+
+A l’autre extrémité, il y a un axone qui peut mesurer jusqu’à 1m de long. Et chacun de ces axones est d’une épaisseur d’environ un millimètre seulement, ce qui donne un enchevêtrement de spaghettis électriques.
+Chaque neurone a des connexions synaptiques avec pas moins de 1 000, parfois même 10 000 autres neurones. Et il y a 20 milliards de neurones au total dans le cortex * 1000 connexions = il y a plus de 20 000 milliards de connexions neuronales individuelles dans le cortex. Dans notre seul mètre cube, il y a plus de 20 millions de synapses.
+
+les câbles qui passent par le cube : Mais c’est pas tout, parce que non seulement il y a des spaghettis qui sortent de chacune des 40 000 billes de notre cube, mais des milliers d'autres spaghettis traversent notre cube en provenance d'autres parties du cortex.
+
+cellules gliales : Il s'avère qu'il existe d'autres cellules dans le cerveau appelées cellules gliales, qui nourrissent, protègent les neurones, éliminent les déchets, etc. Et il y en a à peu près le même nombre qu'il y a de neurones. Soit environ 40 000 dans notre cube.
+
+vaisseaux sanguins : Enfin, les vaisseaux sanguins. Dans chaque millimètre cube du cortex, il y a 230 millimètres de vaisseaux sanguins.*1000 =  230 mètres dans notre cube.
+prendre des images ici sur la fin de la vidéo :https://www.youtube.com/watch?v=9hVHmgBOZuI&t=4s
+
+Conclusion : Rappelons maintenant qu'en réalité, tout ce qui se trouve dans notre boîte tient dans un millimètre cube. Et ce mm cube, avec tout ce qui se passe à l’intérieur, ça représente qu'un 500 000e du cortex. Si on décomposait tout le cortex géant en cubes d'un mètre de côté et qu’on les alignait, ils s'étendraient sur 500 km. Paris-Bordeaux. Et à tout moment où on s’arrêterait sur la route… on pourrait regarder le cube devant lequel on est et il contiendrait toute cette complexité à l'intérieur. Et tout ça, c’est en ce moment dans notre cerveau.
 
 
 
