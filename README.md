@@ -10,17 +10,14 @@
 - **2. Image reconstruction**
 - **3. Mouvement**
 ### IV - Le cerveau, infinie complexité
-### V - Enjeux Business & geo-politiques
-- **1. Médical**
-- **2. Investissements Big Tech**
-- **3. Géo-politique**
-### VI - La course à l'alumette
+### V - La course à l'alumette
 - **1. Meta & BCIs**
 - **2. Apple & BCIs**
 - **3. Google & BCIs**
 - **4. Bill Gates, Jeff Bezos & Synchron**
 - **5. Neuralink**
-### VII - Futur de l'Humanité
+- **5. Géo-politique**
+### VI - Futur de l'Humanité
 - **1. Défis**
 - **2. Enjeux éthiques et accélerationisme**
 - **3. BCIs comme solution aux AGI**
@@ -231,6 +228,79 @@ Mais le soma c’est qu’une petite partie du neurone.
 
 Conclusion : Rappelons maintenant qu'en réalité, tout ce qui se trouve dans notre boîte tient dans un millimètre cube. Et ce mm cube, avec tout ce qui se passe à l’intérieur, ça représente qu'un 500 000e du cortex. Si on décomposait tout le cortex géant en cubes d'un mètre de côté et qu’on les alignait, ils s'étendraient sur 500 km. Paris-Bordeaux. Et à tout moment où on s’arrêterait sur la route… on pourrait regarder le cube devant lequel on est et il contiendrait toute cette complexité à l'intérieur. Et tout ça, c’est en ce moment dans notre cerveau.
 
+# V - La course à l'alumette
+
+
+### 1. Meta & BCIs
+**Investissements de Meta dans les BCI** :
+- entre 500 millions et 1 milliard de dollars pour acquérir CTRL-Labs selon Bloomberg
+- une des plus importantes acquisitions ou la plus importante réalisée par Méta depuis le rachat d'Oculus en 2014
+- investissements dans le Chang Lab et dans la technique infra-rouge
+
+**Annonce du projet** : Tout a commencé par l'annonce au F8 (événement annuel organisé par meta depuis 2007, présentent les nouvelles fonctionnalités, outils et mise à jours pour les développeurs et partager des idées sur l'avenir des technologies) 2017, où Facebook, Regina Dugan annonce chercher à développer un appareil BCI portable et non invasif pour la parole. 3:16 "nous n'avons exploré que la surface de ce qui est possible. Il y a beaucoup, beaucoup plus à faire". 5:44 "so... what if you could type directly from your brain ? It sounds impossible mais c'est plus proche que ce que vous ne pensez. Ils lancent alors le programme de recherche sur les BCIs au Reality Labs. A brain mouse
+
+**Création du silent speech interface project, au reality labs** :
+Meta ouvre alors un programme de recherche sur l'interface cerveau ordinateur au Reality Labs, la division dédiée au développement de technologies de réalité virtuelle ou réalité augmentée. Son but : développer une interface vocale silencieuse et non invasive qui permettra aux utilisateurs de taper simplement en imaginant les mots qu’ils veulent dire. C’est le silent speech interface project.
+
+**Chang Lab & Reality Lab** : 
+Le but de Meta était de créer un appareil portable non invasif qui permet aux gens de taper simplement en s'imaginant parler. Et pour ça, selon Mark Chevillet, directeur du BCI research program, il fallait déjà déterminer si une interface de conversion de la pensée en parole était possible. 
+Pour cela, Meta a décidé de parrainer et soutenir financièrement une équipe de chercheurs de l’UCSF (University of California, San Francisco, institution de premier plan dans la recherche biomédicale aux États-Unis) : le Chang Lab. Le but de leurs recherches c’est de développer une prothèse pour restaurer la communication vocale chez les personnes qui ont perdu la capacité de parler. Et ça, en détectant la parole intentionnelle à partir de l'activité cérébrale en temps réel. MAIS avec une technique qui consiste à placer des électrodes à la surface du cerveau. Alors que les électrodes implantées lisent les données de neurones individuels, cette technique, appelée électrocorticographie mesure simultanément des groupes assez importants de neurones. 
+Chevillet explique que Meta espérait qu'il serait également possible de détecter des signaux équivalents provenant de l'extérieur de la tête. Leurs recherches "aident à éclairer la voie à suivre dans notre mission de développement d'une interface vocale silencieuse non invasive pour la prochaine plate-forme informatique". C’est-à-dire à "parvenir à une BCI entièrement non invasive comme solution d'entrée potentielle pour les lunettes de AR. 
+développent aussi technique infrarouge au Mallinckrodt Institute of Radiology de la Washington University School of Medicine et l'APL de Johns Hopkins
+
+**CTRL Labs** : En parallèle, toujours au Reality Labs, Facebook achète CTRL Labs en septembre 2019. La start-up new-yorkaise a créé un bracelet capable de transformer des impulsions envoyées par le cerveau à la main en commande informatique. Un bracelet pour anticiper les mouvements physiques. 
+Et difficile d’avoir de bons signaux en non invasif, or Meta veut absolument du non-invasif. Et ils voient court terme ⇒ se sont finalement rétractés sur le bracelet
+
+**Arrêt du projet Silent Speech + se concentrent sur le bracelet** : Meta a arrêté car ils ont compris que c’était pas tout de suite pour la commercialisation. Donc se sont tournés vers le bracelet. Mais continuent les recherches au FAIR. ont conclu : est-il possible de décoder la parole à partir de l’activité cérébrale, et est-il possible de la décoder avec un appareil optique portable ? », explique Chevillet. « Nous pensons que cela sera finalement possible.»
+
+**Interface Neurale généralisable basée sur un bracelet** : 
+En 2022 ils sortent [cette vidéo](https://www.youtube.com/watch?v=Kx_nVrEKwTE ) où ils montrent ce qu’ils souhaitent arriver à faire avec le bracelet.
+Applications : 
+tapper sur un clavier sans avoir besoin de trop bouger
+interaction avec des interfaces de réalité augmentée
+jouer à des jeux
+Et le 28 février 2024, ils publient cet article : A generic noninvasive neuromotor interface for human-computer interaction. Où ils présentent où ils en sont dans leurs recherches. Ils présentent leur interface neuro-motrice non invasive qui utilise une technique qui permet d’étudier l’activité électrique des muscles qui s’appelle l'électromyographie de surface (sEMG). Et qui permet diverses formes d'interaction avec des machines. 
+la navigation, sélectionner des éléments
+la reconnaissance de gestes légers comme taper avec les doigts ou slider
+Entrer du texte en écrivant avec la main [video](https://www.youtube.com/watch?v=GAagRSQSUaU)
+
+**C’est pour bientôt** : interview avec Morning Brew Daily, datant de février dernier. "and it's only going to get crazier." "Aujourd'hui tu tappes sur un ordinateur ou un téléphone. Tu parles à tes lunettes. Mais aujourd'hui une des choses les plus folles sur lesquelles nous travaillons et cette interface neuronale. "La façon dont votre cerveau communique avec votre corps et contrôle la façon dont vous bougez en envoyant des signaux au système nerveux à vos différents muscles". Et vous pouvez les récupérer avec un bracelet EMG.
+"You'll be able to, in the future, essentially just like type and control something by kind of thinking about how you want to move your hand," but like it won't even be like big motions. I can just sit here and basically typing something to an AI. You will have this complete private and discreet interface où tu peux tout au long de la journée text tes amis ou ton ai et avoir la réponse en temps réel. "I think that just gonna be insane". Ça fait plusieurs années qu'ils bossent dessus, et ils sont proches "nous sommes en fait assez proches d'avoir ici un produit dans les prochaines années" "i'm pretty excited about that".
+
+**Temporalité** : Vision court terme + non invasif
+
+### 2. Apple & BCIs
+### 3. Google & BCIs
+### 4. Bill Gates, Jeff Bezos & Synchron
+### 5. Neuralink & Elon vision
+Neuralink est un périphérique d’entrée-sortie généralisé. Il lit les signaux électriques et génère des signaux électriques. Et tout ce que t’as expérimenté dans ta vie : l'odeur, les émotions, ce sont tous des signaux électriques. C’est un peu bizarre de penser que toute ton expérience de vie est distillée en signaux électriques pour les neurones. Mais c’est effectivement le cas. Du moins c’est ce que toutes les preuves indiquent. Donc si vous déclenchez le bon neurone, vous pourriez déclencher une odeur particulière, vous pourriez certainement faire briller les choses. Faire à peu près n'importe quoi.
+
+**Investissements dans Neuralink**
+- au moins 643 millions de dollars les sommes levées depuis le début
+- juillet 2024, Neuralink a discrètement levé 43 millions de dollars supplémentaires
+- août et novembre 2023, Neuralink a levé environ 323 millions de dollars auprès d'investisseurs
+- juillet 2021, l'entreprise avait bouclé une levée de fonds de 195 millions d'euros
+- avait déjà obtenu un financement de 152 milliards d'euros par l'un des anciens cofondateurs de l'entreprise
+
+**Vision long terme** : Mais l’aspiration à long terme de Neuralink est d’améliorer la symbiose entre humain et IA. Et ça, en augmentant la bande passante de la communication entre les deux. Elon Musk a souvent parlé de menaces, de problèmes de sécurité de l’IA. Et lorsqu’on lui demande s’il pense que Neuralink est la meilleure approche actuelle dont on dispose pour la sécurité de l’IA. Il répond que c’est une idée qui pourrait contribuer à la sécurité de l’IA, même si ce n'est pas la solution universelle ou quelque chose de sûr. Il explique qu’il y a plusieurs années il s’est demandé “qu’est ce qui empêcherait l’alignement de la volonté humaine collective avec l’IA ? Et sa réponse était le faible débit de données des humains. En particulier notre faible taux de production. 
+
+**Problème qui empêcherait l’alignement humain / AI** : Il dit que l’être humain communique doucement. Pour communiquer il faut au moins dans une certaine mesure, modéliser l’état d’esprit de la personne à qui vous parlez, alors prenez le concept que vous essayez de transmettre, compressez cela en un petit nombre de syllabes, dites les et espérez que l’autre personne les décompresse en une structure conceptuelle qui est aussi proche que possible de ce que vous avez en tête. Quand t’as des concepts complexes t’es obligé de les distiller en ce qui est le plus essentiel. Dans le principe de compression vous résumez les choses à ce qui compte le plus. Parce que vous ne pouvez dire que peu de choses. Je pense que si notre débit augmente, on deviendrait beaucoup plus verbaux. Il évalue ce débit en bits par seconde, BPS. La moyenne de bits par seconde d’un humain est de moins de 1 bit par seconde au cours d’une journée, 86400 secondes dans une journée, et vous ne communiquez pas à 86400 tokens par jour, par conséquent vos bits par seconde sont inférieurs à un. Sauf que l’IA communique en terabits par seconde alors que tu communiques en bits par seconde. Le téléphone et l'ordinateur essayent juste de comprendre ce que tu veux, et c’est extrêmement long (32:50). Il y a une éternité entre chaque frappe d’un point de vue informatique. Si vous avez des ordinateurs qui peuvent exécuter des milliards d’instructions par seconde, et une seconde entière s’est écoulée, ca fait un milliard de choses qu’il aurait pu faire pendant cette seconde.
+
+**Solution** : Il pense qu’on pourrait mieux aligner la volonté humaine collective sur l’IA si le taux de sortie était considérablement augmenté. Et justement, pour lui, il y a un potentiel d’augmentation en sortie.
+Lex : Donc plus on augmente ça signifie que plus le débit de données que les humains peuvent absorber et produire, plus on a des chances dans un monde plein d’AGI ?
+Elon : Yeah. Lex : le taux de sortie serait augmenté en augmentant le nombre d'électrodes, le nombre de canaux ? et peut-être en implantant plusieurs Neuralinks ?
+Elon : Yeah
+
+**Résultats** : Musk dit qu’avec son premier patient, ils ont réussi à atteindre 1 bit par seconde. Il dit que leur objectif est d’avoir une centaine de bits par seconde, et peut-être dans 5 ans un mégabit par seconde. Ce serait plus rapide que la vitesse à laquelle n’importe quel humain communique en tapant ou en parlant. A partir d’un certain nombre de bits par seconde, une toute nouvelle manière de communiquer avec les ordinateurs et entre humains serait débloquée. D’où la raison pour laquelle son implant s’appelle telepathy. Parler rapidement direct en pensée avec les machines et voire d’autres humains.
+
+**Stratégie pour arriver à l’augmentation** : Mais les premières années de l’entreprise sont là pour résoudre des dommages neurologiques fondamentaux. C’est la chose la plus censée à faire selon Elon. Commencer par résoudre les problèmes fondamentaux des lésions neuronales de base. (17:05) Pourquoi commencer par le médical ? Pour le risque. En effet, il n’y a pas de risque 0 avec des nouveaux appareils. On ne peut pas réduire le risque à 0. Or, si quelqu’un est capable d’avoir une profonde amélioration de sa communication, parce que de base il a des dommages neurologiques, alors le risque en vaut la peine. Et à mesure qu’ils arrivent à réduire le risque, et imaginons qu’il y ai 1000 personnes implantées qui l'utilisent depuis des années alors on peut commencer à envisager l’augmentation. Mais pour ça, ils souhaitent commencer l’augmentation avec des personnes ayant des lésions neuronales. Leur objectif n’est pas seulement celui de permettre aux gens de communiquer, d’avoir un débit de données équivalent à celui des humains normaux, non, ils veulent réussir à leur donner un débit de communication supérieur à celui des humains normaux.
+
+**Temporalité** : “Est-ce que tu penses qu’il y aura un monde dans les deux prochaines décennies où des centaines de millions de personnes ont des Neuralinks ? Oui. Je le pense. (32:00). On est sur une entreprise qui pense à long terme. “Ce serait dans 10 ou 15 ans”.
+Lex : quand est ce que je pourrai en avoir un ?
+Elon : probablement moins de 10 ans.
+Vision long terme + invasif
+
+### 5. Géo-politique
 
 
 
