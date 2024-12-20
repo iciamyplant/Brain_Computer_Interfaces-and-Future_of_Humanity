@@ -144,11 +144,11 @@ Des algorithmes de classification, tels que les réseaux de neurones, les machin
 
 
 # III - Articles les plus intéressants / principales avancées
-Il existe de nombreuses études et articles sur chacunes de ces applications. Mais j'ai selectionné ici les études qui m'ont marqué.
+Il existe de nombreuses études et articles sur plein d'applications différentes. Mais j'ai décidé de me concentrer sur ce qui concerne la reconstruction du langage et des images + le mouvement. J'ai selectionné ici les études qui m'ont marqué.
 
 ### 1. Langage reconstruction
 
-Dans la reconstruction du langage, deux études publiées en 2023 montrent la création de BCIs capables de traduire des signaux neuronaux en phrases à une vitesse proche de celle d'une conversation normale (environ 150 mots par minute) :
+Dans la reconstruction du langage, deux études publiées en août 2023 montrent la création de BCIs capables de traduire des signaux neuronaux en phrases à une vitesse proche de celle d'une conversation normale (environ 150 mots par minute) :
 - a. [A high-performance neuroprosthesis for speech decoding and avatar control](https://www.nature.com/articles/s41586-023-06443-4)
 - b. [A high-performance speech neuroprosthesis](https://www.nature.com/articles/s41586-023-06377-x)
 
@@ -183,10 +183,26 @@ C’est un projet de recherche collaboratif Braingate = équipe de recherche, ba
 
 ### 2. Image reconstruction
 
+#### a. Mindeye
+On utilise les signaux cérébraux pour reconstruire l'image
+approche novatrice pour reconstruire et récupérer des images à partir de l'activité cérébrale mesurée par IRM fonctionnelle (IRMf).
+développée par StabilityAI
+Le système atteint une grande précision dans la récupération des images originales, avec plus de 90% de précision dans l'identification de l'image originale parmi un pool de candidats.
 
+#### b. Toward a real-time decoding of images from brain activity, Meta AI Research
+octobre 2023
+utilise la MEG (non invasif), pour développer un système IA capable de décoder le déroulement des représentations visuelles dans le cerveau avec une résolution temporelle sans précédent
+ont exploité l'architecture récentre formée dans l'étude de août 2022 au dessus et développent un système en trois parties composé d'un encodeur d'image, d'un encodeur cérébral et d'un décodeur d'image
+Enfin, le décodeur d'image génère une image plausible à partir de ces représentations cérébrales.
+L'encodeur cérébral apprend ensuite à aligner les signaux MEG sur ces intégrations d'images.Meilleure alignement des signaux cérébraux avec les systèmes de vision par ordinateur modernes comme DINOv2
+L'encodeur d'image construit un riche ensemble de représentations de l'image indépendamment du cerveau.
+
+Ce système d’IA peut être déployé en temps réel pour reconstituer, à partir de l’activité cérébrale, les images perçues et traitées par le cerveau à chaque instant. Cela ouvre une voie importante pour aider la communauté scientifique à comprendre comment les images sont représentées dans le cerveau, puis utilisées comme fondements de l’intelligence humaine.
+résultats : Bien que les images générées restent imparfaites, les résultats suggèrent que l'image reconstruite préserve un riche ensemble de caractéristiques de haut niveau, telles que les catégories d'objets.
+Cependant, le système d'IA génère souvent des caractéristiques de bas niveau inexactes en plaçant ou en orientant mal certains objets dans les images générées.
 
 ### 3. Mouvement
-
+Synchron et utilisation du vision pro
 
 # IV - Le cerveau, infinie complexité
 
