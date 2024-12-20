@@ -55,6 +55,12 @@ Deux directions de communication
 ### 2. Vaste et riche Histoire des BCIs bien avant Neuralink
 Quelques éléments de l'histoire des BCI
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/01406959-5740-4c2c-b39f-925c99e31139" alt="midjourneyv2">
+  <p>image générée avec Midjourney v6 sur Mammouth.ai</p>
+</div>
+![midjourneyv2](https://github.com/user-attachments/assets/01406959-5740-4c2c-b39f-925c99e31139)
+
 **1791**
 A commencé par des scientifiques qui se demandaient la diférence entre ce qui n'est pas vivant et ce qui est vivant. Ils se sont dit qu'il doit surement y avoir un esprit vital, une force vitale. Notamment un physicien : Luigi Galvani. Un jour Luigi disséquait des grenouilles et il avait genre un petit appareil qui pouvait créer un choc statique. Accidentellement, un petit choc a énervé les cuisses de grenouilles qui ont bougé. Et il s'est dit wow qu'est ce qu'il se passe. Pendant 5 années il a fait des experimentations pour comprendre qu'est ce que c'est. Il a publié un article et a dit Ok j'ai trouvé la force vitale. Ca sappelle ["Animal Electricity"](http://www.ampere.cnrs.fr/histoire/parcours-historique/galvani-volta/galvani/eng).
 Un de ses potes était Axander Volta (on le connait des voltes), et il était super intéressé par cette Animal Electricity. Il a dit je pense pas ce soit de l'Animal Electricty, je pense y a une erreur dans ton travail. C'est le métal. Le métal est la chose qui énerve ces cuisses de grenouilles. Bataille pdt 10 années entre Volta et Galvani. Volta a commencé a faire ses expérimentations. Il a commencé a mixer les métaux et les empiler. Et c'est devenu la pile voltaique. Ou ce qu'on appelle maintenant la batterie electrique. Par la suite [Giovanni Aldini](https://numerabilis.u-paris.fr/partenaires/chn/docpdf/parent_aldini.pdf) le neuveu de Luigi Galvani, a continué les travaux et est aussi devenu connu pour avoir essayé de ranimer des cadavres avec de l'électricité. Et les gens allaient voir ces spectacles macabres mdrrrr. Bref
