@@ -1,3 +1,4 @@
+# ["L’innovation qui va changer l’Humanité"](https://www.youtube.com/watch?v=HV4q28j_4gc)
 ## plan
 ### I - Définition de la technologie
 - **1. Caractéristiques des types de BCI**
